@@ -1,0 +1,34 @@
+{
+    "name": "XRInputActions",
+    "maps": [
+        {
+            "name": "XRControllerActions",
+            "id": "2b603401-1278-42fe-8ef5-1bdd707b79f0",
+            "actions": [
+                {
+                    "name": "SpawnBookAction",
+                    "type": "Button",
+                    "id": "203a5760-fc0d-4c82-8b43-4131ef6f4479",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2549a91a-2ce3-4e51-964d-3e6da444af5a",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnBookAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
